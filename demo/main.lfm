@@ -1,0 +1,69 @@
+object Form1: TForm1
+  Left = 0
+  Height = 278
+  Top = 0
+  Width = 561
+  Caption = 'Form1'
+  ClientHeight = 278
+  ClientWidth = 561
+  Visible = False
+  object btnSimple: TButton
+    Left = 392
+    Height = 25
+    Top = 240
+    Width = 75
+    Caption = 'Simple'
+    OnClick = btnSimpleClick
+    TabOrder = 0
+  end
+  object edWebHookURL: TEdit
+    Left = 8
+    Height = 23
+    Top = 32
+    Width = 544
+    TabOrder = 1
+  end
+  object Label1: TLabel
+    Left = 8
+    Height = 15
+    Top = 13
+    Width = 72
+    Caption = 'Slack API URL'
+    ParentColor = False
+  end
+  object edChannel: TEdit
+    Left = 8
+    Height = 23
+    Top = 88
+    Width = 80
+    TabOrder = 2
+    Text = '#general'
+  end
+  object Label2: TLabel
+    Left = 8
+    Height = 15
+    Top = 64
+    Width = 32
+    Caption = 'Room'
+    ParentColor = False
+  end
+  object Memo1: TMemo
+    Left = 8
+    Height = 82
+    Top = 136
+    Width = 544
+    Lines.Strings = (
+      'Demo text to Slack'
+    )
+    TabOrder = 3
+  end
+  object btnAdvanced: TButton
+    Left = 477
+    Height = 25
+    Top = 240
+    Width = 75
+    Caption = 'Advanced'
+    OnClick = btnAdvancedClick
+    TabOrder = 4
+  end
+end
