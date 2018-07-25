@@ -12,5 +12,9 @@ For Ubuntu:
 sudo apt-get install openssl libssl-dev
 
 
+Slack:
+
+Create webhook URL for you Workspace https://api.slack.com/apps
+
 
 
