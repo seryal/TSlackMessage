@@ -18,9 +18,9 @@
         <Filename Value="main.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="64"/>
         <CursorPos X="39" Y="81"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
@@ -28,7 +28,6 @@
       </Unit1>
       <Unit2>
         <Filename Value="..\slack.pas"/>
-        <IsPartOfProject Value="True"/>
         <EditorIndex Value="1"/>
         <TopLine Value="194"/>
         <CursorPos Y="212"/>
